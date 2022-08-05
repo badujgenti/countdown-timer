@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color:#1D1E28;
+    background-image: url(https://media.giphy.com/media/U3qYN8S0j3bpK/giphy.gif);
+    background-repeat: no-repeat;
+   
+    background-size: cover;
+    min-height: 100vh;
+    
+   
+
+}
+
+.launching-soon{
+    height: 48px;
+    
+   margin: 142px 24px 54px 24px;
+}
+h1{
+    font-family: 'Red Hat Text', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 6.136363506317139px;
+    text-align: center;
+
+    background: -webkit-linear-gradient(#21D4FD,  #B721FF);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+       
+
+}
+
+.boxes{
+    height: 66.26667022705078px;
+    width: 70px;
+    left: 0px;
+    top: 0px;
+    border-radius: 4px;
+    background-color: initial;
+    box-shadow: 5px solid #191A23;
+    margin-bottom: 10px;
+
+}
+#full-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+.purple{
+    background: -webkit-linear-gradient(#21D4FD,  #B721FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+   
+    font-family: 'Red Hat Text',sans-serif;
+    font-size: 7px;
+    font-weight: 700;
+    line-height: 9px;
+    letter-spacing: 2.9593749046325684px;
+    text-align: center;
+
+}
+.icons{
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    margin-top: 260px;
+    color: red;
+
+}
+.pink{
+    font-family: 'Red Hat Text',sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 71px;
+    letter-spacing: -1.0800000429153442px;
+    text-align: center;
+    color: #FB5E84;
+
+}
+.boxes p{
+    font-family: 'Red Hat Text',sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 71px;
+    letter-spacing: -1.0800000429153442px;
+    text-align: center;
+    background: -webkit-linear-gradient(#21D4FD,  #B721FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+   
+}
+@media only screen and (min-width : 1024px){
+    .launching-soon{
+        width: 100%;
+       margin-top :132px;
+       margin-bottom: ;
+       font-size: 22px;
+        line-height: 29px;
+        letter-spacing: 7.5px;
+    }
+    .boxes{
+        height: 150px;
+        width: 148px;
+        left: 0px;
+        top: 0px;
+        border-radius: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: initial;
+
+    }
+    .boxes p{
+        font-family: Red Hat Text;
+        font-size: 80px;
+        font-weight: 700;
+        line-height: 71px;
+        letter-spacing: -2.4000000953674316px;
+        text-align: center;
+        font-size: 72px;
+        background: -webkit-linear-gradient(#21D4FD,  #B721FF);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+       
+
+    }
+    .purple{
+        font-family: Red Hat Text;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 19px;
+        letter-spacing: 5.918749809265137px;
+        text-align: center;
+
+    }
+    .icons{
+        margin-top: 252px;
+    }
+    .icons:hover .fb{
+        color: red;
+    }
+
+}
