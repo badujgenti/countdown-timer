@@ -35,3 +35,12 @@ document.getElementById("seconds").innerHTML = timeSeconds;
 setInterval(countdown, 1000);
 
 
+var x = document.getElementById("myAudio"); 
+
+function playAudio() { 
+  x.play(); 
+} 
+
+function pauseAudio() { 
+  x.pause(); 
+} 

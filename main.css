@@ -8,12 +8,8 @@ body{
     background-color:#1D1E28;
     background-image: url(https://media.giphy.com/media/U3qYN8S0j3bpK/giphy.gif);
     background-repeat: no-repeat;
-   
     background-size: cover;
     min-height: 100vh;
-    
-   
-
 }
 
 .launching-soon{
@@ -64,6 +60,7 @@ h1{
     line-height: 9px;
     letter-spacing: 2.9593749046325684px;
     text-align: center;
+    margin-bottom: 50px;
 
 }
 .icons{
@@ -96,7 +93,44 @@ h1{
     -webkit-text-fill-color: transparent;
    
 }
+.play-pause{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px
+}
+.play{
+    font-family: 'Red Hat Text',sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 71px;
+    letter-spacing: -1.0800000429153442px;
+    text-align: center;
+    background: -webkit-linear-gradient(#21D4FD,  #B721FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border:none;
+    cursor:pointer;
+    
+}
+.stop{
+    font-family: 'Red Hat Text',sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 71px;
+    letter-spacing: -1.0800000429153442px;
+    text-align: center;
+    background: -webkit-linear-gradient(#21D4FD,  #B721FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border:none;
+    cursor:pointer
+
+}
 @media only screen and (min-width : 1024px){
+    body{
+        overflow: hidden;
+    }
     .launching-soon{
         width: 100%;
        margin-top :132px;
@@ -141,10 +175,33 @@ h1{
 
     }
     .icons{
-        margin-top: 252px;
+        margin-top: 160px;
     }
-    .icons:hover .fb{
-        color: red;
+    .play{
+        font-family: 'Red Hat Text',sans-serif;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 71px;
+        letter-spacing: -1.0800000429153442px;
+        text-align: center;
+        background: -webkit-linear-gradient(#21D4FD,  #B721FF);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        border:none
+        
+    }
+    .stop{
+        font-family: 'Red Hat Text',sans-serif;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 71px;
+        letter-spacing: -1.0800000429153442px;
+        text-align: center;
+        background: -webkit-linear-gradient(#21D4FD,  #B721FF);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        border:none
+    
     }
 
 }
